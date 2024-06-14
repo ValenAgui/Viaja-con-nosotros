@@ -1,0 +1,134 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'fuente';
+    font-size: 15px;
+ }    
+
+ body {
+    background: linear-gradient(to right, rgb(51, 173, 234), rgb(14, 218, 143), rgb(213, 235, 9));
+ }
+        
+ @font-face {
+            font-family:'fuente' ;
+            src: url(fuente/lemon_milk/LEMONMILK-Regular.otf);
+}
+
+header {
+    display: flex;
+    position: fixed;
+    align-items: center;
+    padding: 10px 20px;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    background: linear-gradient(to right, rgb(51, 173, 234), rgb(14, 218, 143), rgb(213, 235, 9));
+    color: white;
+}
+
+header img {
+    float: left; 
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+   
+
+}
+
+header h2 {
+    margin: 10px;
+    font-size: 18px;
+    color: #043b02;
+}
+
+
+.barra {
+    display: flex;
+    gap: 20px;
+    margin-left: auto;
+    margin-right: 20px;
+    flex-wrap: wrap;
+}
+
+.boton {
+    margin-left: 20px;
+    text-decoration: none; 
+    padding: 5px 10px; 
+    border: 1px solid #000;
+    color: #043b02;
+    background-color: #ddd;
+    transition: 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.boton:hover {
+    background-color: white;
+}
+
+main {
+    padding-top: 80px
+}
+
+main h1 {
+    text-align: center;
+    color: #043b02;
+    margin-bottom: 20px;
+}
+
+.guias {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.guia {
+    width: 30%;
+    min-width: 300px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.guia img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5); 
+
+}
+
+.guia h3 {
+    margin: 20px 0 10px;
+    color: #043b02;
+}
+
+.guia p {
+    color: black;
+
+}
+
+footer {
+    margin-top: 50px;
+    background: linear-gradient(to right, rgb(51, 173, 234), rgb(14, 218, 143), rgb(213, 235, 9));
+    color: #043b02;
+    padding: auto;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    font-weight: bold;
+    font-size: 10px;
+   
+  }
+  a .nom{
+    text-align: left;
+    color: #043b02;
+  }
+
